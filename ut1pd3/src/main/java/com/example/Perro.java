@@ -1,6 +1,6 @@
 package com.example;
 
-public class Perro {
+public class Perro implements Mamifero {
 
     private String nombre;
 
@@ -18,5 +18,17 @@ public class Perro {
 
     public boolean respondeA(String unNombre){
         return this.nombre.equals(unNombre);
+    }
+
+    public void caminar() {
+        System.out.println("por la vida camino, digo guau guau");
+    }
+
+    public void correr() {
+        System.out.println("por la vida corro, digo guau guau");
+    }
+
+    public void saltar() {
+        System.out.println("por la vida salto, digo guau guau");
     }
 }
