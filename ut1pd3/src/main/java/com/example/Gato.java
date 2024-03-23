@@ -1,6 +1,6 @@
 package com.example;
 
-public class Gato {
+public class Gato implements Mamifero {
 
   private String nombre;
 
@@ -19,4 +19,16 @@ public class Gato {
   public boolean respondeA(String unNombre){
     return false;
   }
+
+  public void caminar(){
+    System.out.println("caminando...");
+  };
+
+  public void correr(){
+    System.out.println("corriendo...");
+  };
+
+  public void saltar(){
+    System.out.println("saltar!");
+  };
 }
