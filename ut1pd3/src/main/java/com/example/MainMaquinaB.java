@@ -14,8 +14,7 @@ public class MainMaquinaB {
         System.out.println("El perro responde a Cliford? " + perro.respondeA("Cliford"));
         System.out.println("El perro responde a Carlos? " + perro.respondeA("Carlos"));
 
-        Perro chicho = new Perro("chicho");
-        
+        //Maquina A        
         perro.ladrar();
         System.out.println("que hace chicho cuando se aburre ");
         perro.correr();
@@ -27,5 +26,10 @@ public class MainMaquinaB {
         System.out.println("que hace chicho cuando se cansa");
         perro.caminar();
         System.out.println();
+
+        //Maquina B
+        gato.caminar();
+        gato.correr();
+        gato.saltar();
     }
 }
