@@ -13,5 +13,19 @@ public class MainMaquinaB {
         System.out.println("El nombre del perro es " + perro.getNombre());
         System.out.println("El perro responde a Cliford? " + perro.respondeA("Cliford"));
         System.out.println("El perro responde a Carlos? " + perro.respondeA("Carlos"));
+
+        Perro chicho = new Perro("chicho");
+        
+        perro.ladrar();
+        System.out.println("que hace chicho cuando se aburre ");
+        perro.correr();
+        System.out.println();
+        System.out.println("que hace chicho cuando se emociona");
+        perro.saltar();
+        System.out.println();
+
+        System.out.println("que hace chicho cuando se cansa");
+        perro.caminar();
+        System.out.println();
     }
 }
